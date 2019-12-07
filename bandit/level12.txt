@@ -1,0 +1,8 @@
+5Te8Y4drgCRfCx8ugdwuEX8KFC6k2EUu
+
+Notes:
+ - `xxd` command to reverse a hexdump file
+ - `file FILENAME` to check file format type
+ - `gunzip` to extract .gz type file
+ - `bzip2` to extract .bzip2 type file
+ - `tar` to open archive file
