@@ -1,1 +1,4 @@
 8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
+
+Notes: 
+- `ssh -i` option to ssh login with key file

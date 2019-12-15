@@ -1,0 +1,5 @@
+BfMYroe26WYalil77FoDi9qh59eK5xNr
+
+
+Notes:
+- `openssl s_client` command to connect and submit password to `localhost` port `30001` using ssl encryption

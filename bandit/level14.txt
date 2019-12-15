@@ -1,0 +1,5 @@
+4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e
+
+Notes:
+- `nc` command to connect and submit password to `localhost` port `30000`
+
