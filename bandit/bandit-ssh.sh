@@ -1,11 +1,23 @@
 #!/bin/bash
 
+# Author: haw
+# Error code:
+#   1 - Usage error
+#   2 - Command not exist
+
 _SCRIPT=$(basename ${0})
 
 # USAGE: bandit-ssh.sh LEVEL
 if [[ "${#}" -ne 1 ]]; then
     echo "USAGE: ${_SCRIPT} LEVEL"
     exit 1
+fi
+
+# sshpass command 
+which sshpass 1> /dev/null
+if [[ "${?}" -ne 0 ]]; then
+    echo "No such command: sshpass"
+    exit 2
 fi
 
 _level=${1}
