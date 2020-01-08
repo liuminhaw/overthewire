@@ -1,1 +1,6 @@
 cluFn7wTiGryunymYOu4RcffSxQluehd
+
+
+Notes:
+- `nmap -p PORTS_RANGE` command to scan for open ports
+- Test open ports with `openssl s_client` command
