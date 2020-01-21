@@ -11,4 +11,12 @@ Level information and notes
 
 ## Text files
 Stores password and passing notes for each level
+```
+levelXX.txt
+```
 
+## Pem files
+Stores secret key to login via identity file if needed
+```
+levelXX.pem
+```
