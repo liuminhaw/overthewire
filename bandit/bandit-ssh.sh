@@ -28,6 +28,7 @@ if [[ ${_level} -lt 10 ]]; then
 fi
 
 _password_file="level${_level}.txt"
+_pem_file="level${_level}.pem"
 
 if [[ ! -f "./${_password_file}" ]]; then
     echo "Password file ${_password_file} not exist."
@@ -35,9 +36,15 @@ if [[ ! -f "./${_password_file}" ]]; then
 fi
 
 echo "Select level: ${_level}"
-echo "Password file: ${_password_file}"
 
-read _passwd < ./${_password_file}
+# Test login method
+if [[ -f "./${_pem_file}" ]]; then
+    echo "Key file: ${_pem_file}"
+    ssh -i ${_pem_file} -p 2220 ${_user}@bandit.labs.overthewire.org
+else
+    echo "Password file: ${_password_file}"
+    read _passwd < ./${_password_file}
+    sshpass -p ${_passwd} ssh -p 2220 ${_user}@bandit.labs.overthewire.org
+fi
 
-sshpass -p ${_passwd} ssh -p 2220 ${_user}@bandit.labs.overthewire.org
 #ssh -p 2220 bandit11@bandit.labs.overthewire.org
