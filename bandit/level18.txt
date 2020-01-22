@@ -1,2 +1,4 @@
 kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
 
+Notes:
+- Use `ssh [destination] command` to execute command when connect to server
