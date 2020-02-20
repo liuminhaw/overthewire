@@ -1,1 +1,4 @@
 IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+Note:
+- With setuid (suid) bit, when an executable is launched, it does not run with the privileges of the user who launched it, but with that of the file owner instead. 
