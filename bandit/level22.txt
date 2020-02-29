@@ -1,2 +1,5 @@
 Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
 
+Note:
+- Read cron script to decode and find where the password is stored in `/tmp` directory 
+

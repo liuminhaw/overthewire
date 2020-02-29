@@ -1,0 +1,6 @@
+jc1udXuA1tiHqjIsL8yaapX5XIAI6i0n
+
+Note:
+- Inspect cronjob to see what `bandit24` user is running.
+- Write script to output `bandit24` password.
+- The script should be execute by user `bandit24`.
