@@ -1,1 +1,24 @@
 uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+Note:
+- Find bandit26 default shell in `/etc/passwd`
+- Trigger `more` command view
+    - Shrink terminal size to avoid more showing all file content at once 
+    - Open file with vim by pressing `v` in `more`
+
+- Using vim to edit file
+```
+:e /path/of/file
+```
+- Using vim to get shell
+```
+# Show shell setting
+:set shell?
+# Set shell
+:set shell=SHELL_TO_USE
+# Temporary get shell
+:shell
+```
+
+Reference of this level:
+https://medium.com/@coturnix97/overthewires-bandit-25-26-shell-355d78fd2f4d

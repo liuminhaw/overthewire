@@ -1,0 +1,4 @@
+5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+Note:
+- Execute script `bandit27-do` as user bandit27 to print out password in `/etc/bandit_pass/bandit27`
